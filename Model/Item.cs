@@ -15,30 +15,27 @@ namespace DataAccess.Model
 
     {
 
-        public int Id { get; set; }
+        public virtual int Id { get; set; }
         [Required(ErrorMessage ="Název je vyžadován")]//validace dat
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
         [Required(ErrorMessage = "Producent je vyžadován")]
-        public string Producer { get; set; }
+        public virtual string Producer { get; set; }
         [Required(ErrorMessage = "Rok je vyžadován")]
         [Range(2000, 2050, ErrorMessage = "Rozsah není 2000-2050")]
-        public int YearProduct { get; set; }
+        public virtual int YearProduct { get; set; }
 
         [Required(ErrorMessage = "Cena je vyžadována")]
-        public int Price { get; set; }
+        public virtual int Price { get; set; }
         [Required(ErrorMessage = "Producent je vyžadován")]
         [Range (1,2000,ErrorMessage = "Rozsah není od 1 do 2000")]
-        public int Quantity { get; set; }
+        public virtual int Quantity { get; set; }
 
-       [AllowHtml]
-        public string Description { get; set; }
+       [AllowHtml]//pro zachovani HTML je treba pridat system.mvc zavislst
+        public virtual string Description { get; set; }
 
-        public string ImageName { get; set; }
+        public virtual string ImageName { get; set; }
 
-        public ItemCategory Category { get; set; }
-
-
-
+        public virtual ItemCategory Category { get; set; }
 
     }
 }

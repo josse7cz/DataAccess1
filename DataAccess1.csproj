@@ -101,5 +101,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Mappings\ItemCategory.hbm.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Item.hbm.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

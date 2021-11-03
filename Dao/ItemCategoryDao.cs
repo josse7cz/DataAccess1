@@ -9,7 +9,7 @@ namespace DataAccess1.Dao
 {
     public class ItemCategoryDao : DaoBase<ItemCategory>
     {
-        public ItemCategoryDao() : base()//dedení z předka
+        public ItemCategoryDao() : base()//pojisteni pro dedení z předka DaoBase<ItemCategory>
         {
         }
     }
