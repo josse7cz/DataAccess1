@@ -33,3 +33,5 @@ D:\J\C#\DataAccess1\obj\Debug\DataAccess1.csproj.AssemblyReference.cache
 D:\J\C#\DataAccess1\obj\Debug\DataAccess1.csproj.CoreCompileInputs.cache
 D:\J\C#\DataAccess1\obj\Debug\DataAccess1.dll
 D:\J\C#\DataAccess1\obj\Debug\DataAccess1.pdb
+D:\J\C#\DataAccess1\bin\Debug\BouncyCastle.Crypto.dll
+D:\J\C#\DataAccess1\bin\Debug\BouncyCastle.Crypto.xml

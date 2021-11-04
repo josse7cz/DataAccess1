@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess1.Dao
 {
-    public class ItemCategoryDao : DaoBase<ItemCategory>
+    public class RoleDao : DaoBase<Role>
     {
-        public ItemCategoryDao() : base()
+        public RoleDao() : base()
         {
         }
     }
