@@ -89,6 +89,8 @@
     <Compile Include="Dao\DaoBase.cs" />
     <Compile Include="Dao\ItemCategoryDao.cs" />
     <Compile Include="Dao\ItemDao.cs" />
+    <Compile Include="Model\Receipt.cs" />
+    <Compile Include="Dao\ReceiptDao.cs" />
     <Compile Include="Dao\RoleDao.cs" />
     <Compile Include="Dao\UserDao.cs" />
     <Compile Include="Interface\IDaoBase.cs" />
@@ -115,6 +117,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Role.hbm.xml" />
     <EmbeddedResource Include="Mappings\User.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mappings\Receipt.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
