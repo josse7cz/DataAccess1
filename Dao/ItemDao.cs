@@ -25,6 +25,17 @@ namespace DataAccess1.Dao
                 .SetMaxResults(count)
                 .List<Item>();
         }
+
+        public Item GetById(int? id)
+        {
+            //throw new NotImplementedException();
+
+            return session.CreateCriteria<Item>().Add(Restrictions.Eq("Id", id)).UniqueResult<Item>();
+
+
+        }
+
+
         public IList<Item> SearchItems(string searchStr)//metoda pro nacitani rozumneho mnozstvi polozek z databaze
         {
             return session.CreateCriteria<Item>()

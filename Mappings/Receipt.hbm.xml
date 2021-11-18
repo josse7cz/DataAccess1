@@ -5,8 +5,8 @@
     <id name="Id" column="receipt_id">
       <generator class="native" />
     </id>
-    <many-to-one name="User_Id" column= "user_id" foreign-key="user_id" />
-    <many-to-one name="Item_Id" column= "item_id" foreign-key="item_id" />
+    <many-to-one name="UserName" column= "user_id" foreign-key="user_id" />
+    <many-to-one name="Item" column= "item_id" foreign-key="item_id" />
   </class>
 
 </hibernate-mapping>

@@ -119,7 +119,7 @@
     <EmbeddedResource Include="Mappings\User.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Mappings\Receipt.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Receipt.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
