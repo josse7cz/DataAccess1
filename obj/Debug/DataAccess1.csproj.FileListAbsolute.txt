@@ -35,3 +35,4 @@ D:\J\C#\DataAccess1\obj\Debug\DataAccess1.dll
 D:\J\C#\DataAccess1\obj\Debug\DataAccess1.pdb
 D:\J\C#\DataAccess1\bin\Debug\BouncyCastle.Crypto.dll
 D:\J\C#\DataAccess1\bin\Debug\BouncyCastle.Crypto.xml
+D:\J\C#\DataAccess1\obj\Debug\DataAccess1.csproj.CopyComplete

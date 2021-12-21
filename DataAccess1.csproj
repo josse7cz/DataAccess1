@@ -89,6 +89,7 @@
     <Compile Include="Dao\DaoBase.cs" />
     <Compile Include="Dao\ItemCategoryDao.cs" />
     <Compile Include="Dao\ItemDao.cs" />
+    <Compile Include="Model\ContactModel.cs" />
     <Compile Include="Model\Receipt.cs" />
     <Compile Include="Dao\ReceiptDao.cs" />
     <Compile Include="Dao\RoleDao.cs" />

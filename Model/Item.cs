@@ -29,7 +29,7 @@ namespace DataAccess1.Model
         [Range (1,2000,ErrorMessage = "Rozsah není od 1 do 2000")]
         public virtual int Quantity { get; set; }
 
-       [AllowHtml]//pro zachovani HTML je treba pridat system.mvc zavislst
+       [AllowHtml]//pro zachovani HTML je treba pridat system.mvc zavislost
         public virtual string Description { get; set; }
 
         public virtual string ImageName { get; set; }
