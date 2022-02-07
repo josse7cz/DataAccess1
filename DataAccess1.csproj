@@ -98,6 +98,7 @@
     <Compile Include="Interface\IEntity.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\ItemCategory.cs" />
+    <Compile Include="Model\Result.cs" />
     <Compile Include="Model\Role.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="NHibernateHelper.cs" />
