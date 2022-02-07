@@ -15,5 +15,7 @@ namespace DataAccess1.Model
         public virtual string CategoryName { get; set; }
         
         public virtual string CategoryDescription { get; set; }
+
+        public virtual int Count { get;set; }
     }
 }
